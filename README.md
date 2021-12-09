@@ -283,3 +283,5 @@ elif a=="k" or a=="K":
 Dibawah Ini Flowchart Pada Data Diatas.
 
 ![img](screenshot/ss9.png)
+
+**SEKIAN DAN TERIMA KASIH**
