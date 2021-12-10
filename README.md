@@ -1,4 +1,5 @@
-# **Tugas Pertemuan 10**
+# **`Tugas Pemrograman`**
+Tugas Ke-10 Pertemuan Ke-10
 
 ```sh
 Nama    : Aef Saefuddin
@@ -7,17 +8,17 @@ Kelas   : TI.21.C5
 MatKul  : Pemrograman
 ```
 
-# **Latihan 1**
+# **`Latihan 1`**
 
-Berikut adalah Soal dari Latihan 1
+Berikut adalah Soal dari `Latihan 1`.
 
 ![img](screenshot/ss7.png)
 
 ## *Syntax*
 
-Dari Soal Yang Ada Diatas Kita Bisa Menggunakan *Syntax* Yang Ada Dibawah Ini
+Dari Soal Yang Ada Diatas Kita Bisa Menggunakan *Syntax* Yang Ada Dibawah Ini.
 
-```sh
+```python
 daftarkontak = {"Nama":"Nomor Telepon"}
 kontak = {'Ari':'081267888', 'Dina':'087677776'}
 
@@ -69,15 +70,16 @@ print("="*30)
 print(kontak.items())
 print("="*30)
 ```
+
 ## *Output*
 
-Hasil dari *Syntax* diatas adalah yang ada pada *Output* dibawah ini.
+Hasil dari *Syntax* diatas adalah yang ada pada `Output` dibawah ini.
 
 ![img](screenshot/ss1.png)
 
-# **Praktikum 5**
+# **`Praktikum 5`**
 
-Berikut adalah Soal dari Praktikum 5
+Berikut adalah Soal dari `Praktikum 5`.
 
 ![img](screenshot/ss8.png)
 
@@ -85,7 +87,7 @@ Berikut adalah Soal dari Praktikum 5
 
 Dari Soal yang ada Kita Dapat Menggunakan *Syntax* dibawah ini.
 
-```sh
+```python
 print("PROGRAM DAFTAR NILAI")
 print("====================")
 print()
@@ -173,7 +175,7 @@ data={}
 
 2. Membuat Perulangan dengan *While* yang terdapat pada Menu untuk Menjalankan Program.
 
-```sh
+```python
 while True:
 print()
 a=input("[(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar] :")
@@ -182,7 +184,7 @@ print()
 
 3. Menambahkan Data Yang Dibutuhkan Seperti Data ***Nim*, *Nama*, *Nilai Tugas*, *Uts*, dan *Uas*.** Data yang Di Input akan Masuk ke Dalam Dictonary **Data** dengan **Nim** sebagai keys sedangkan nama, tugas, uts dan uas sebagai **Values**
 
-```sh
+```python
 if a=="t" or a=="T":
     print("TAMBAH DATA")
     print("-----------")
@@ -197,7 +199,7 @@ if a=="t" or a=="T":
 
 4. Menampilkan atau Melihat *Data*. Jika Sebelumnya belum Menginputnya Maka Tampilan *"Tidak Ada"*. Apabila sudah Menginput *Data*. Maka Data Akan Ditampilkan.
 
-```sh
+```python
 elif a=="l" or a=="L":
     if data.items():
         print("DAFTAR NILAI")
@@ -222,7 +224,7 @@ elif a=="l" or a=="L":
 
 5. Apabila Ingi Mengubah *Data*, maka Anda akan diminta untuk menginputkan kembali *Nim* yang Telah Di Input. Setelah Itu Data apat Diubah.
 
-```sh
+```python
  elif a=="u" or a=="U":
     print("UBAH DATA")
     print("---------")
@@ -235,9 +237,9 @@ elif a=="l" or a=="L":
         akhir=(int(tugas)*30/100)+(int(uts)*35/100)+(int(uas)*35/100)
 ```
 
-6. Jika Ingin Menghapus *Data*, anda akan Diminta Menginputkan *Nim* Nya kemabli. Lalu *Data* yang telah Di Input sejak Awal akan terhapus beserta ***Valuesnya*** (Nama, Nilai Tugas, Nilai Uts, dan NIlai Uas).
+6. Jika Ingin Menghapus *Data*, anda akan Diminta Menginputkan *Nim* Nya kemabli. Lalu *Data* yang telah Di Input sejak Awal akan terhapus beserta ***`Valuesnya`*** (Nama, Nilai Tugas, Nilai Uts, dan NIlai Uas).
 
-```sh
+```python
 elif a=="h" or a=="H":
     print("HAPUS DATA")
     print("----------")
@@ -247,9 +249,9 @@ elif a=="h" or a=="H":
         del data[nim]
 ```
 
-7. Jika Ingin Mencari *Data*. Anda Akan Diminta Unutk Menginputkan ***Nim*** Kemudian *Data* yang Anda cari akan muncul.
+7. Jika Ingin Mencari *Data*. Anda Akan Diminta Unutk Menginputkan ***`Nim`*** Kemudian *Data* yang Anda cari akan muncul.
 
-```sh
+```python
 elif a=="c" or a=="C":
     print("CARI DATA")
     print("---------")
@@ -266,12 +268,13 @@ elif a=="c" or a=="C":
 
 8. Setelah Sudah Selesai Meginputkan *Data*, Pilih **'k'/K'** maka Program akan Terhenti.
 
-```sh
+```python
 elif a=="k" or a=="K":
      break
 ```
 
 ## *Output*
+>`Dibawah Ini adalah Hasil Output Pada Data Yang Ada Diatas`
 
 ![img](screenshot/ss2.png)
 ![img](screenshot/ss3.png)
@@ -280,9 +283,9 @@ elif a=="k" or a=="K":
 ![img](screenshot/ss6.png)
 
 ## *Flowchart*
-Dibawah Ini Flowchart Pada Data Diatas.
+>`Dibawah Ini Flowchart Pada Data Diatas.`
 
 ![img](screenshot/ss9.png)
 
-**SEKIAN DAN TERIMA KASIH**
+>**`SEKIAN DAN TERIMA KASIH`**
 
