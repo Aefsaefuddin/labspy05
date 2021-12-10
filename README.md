@@ -1,4 +1,4 @@
-# **`Tugas Pemrograman`**
+# **Tugas Pemrograman**
 Tugas Ke-10 Pertemuan Ke-10
 
 ```sh
@@ -8,7 +8,7 @@ Kelas   : TI.21.C5
 MatKul  : Pemrograman
 ```
 
-# **`Latihan 1`**
+# **Latihan 1**
 
 Berikut adalah Soal dari `Latihan 1`.
 
@@ -77,7 +77,7 @@ Hasil dari *Syntax* diatas adalah yang ada pada `Output` dibawah ini.
 
 ![img](screenshot/ss1.png)
 
-# **`Praktikum 5`**
+# **Praktikum 5**
 
 Berikut adalah Soal dari `Praktikum 5`.
 
@@ -266,7 +266,7 @@ elif a=="c" or a=="C":
         print()
 ```
 
-8. Setelah Sudah Selesai Meginputkan *Data*, Pilih **'k'/K'** maka Program akan Terhenti.
+8. Setelah Sudah Selesai Meginputkan *Data*, Pilih **(`'k'/K'`)** maka Program akan Terhenti.
 
 ```python
 elif a=="k" or a=="K":
