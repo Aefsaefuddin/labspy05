@@ -167,13 +167,13 @@ while True:
 ``` 
 
 ## *Penjelasan*
-1. Membuat Dictonary Kosong yang akan Di Input Dengan Data
+1. Membuat *`Dictonary Kosong`* yang akan Di Input Dengan Data.
 
 ```sh
 data={}
 ```
 
-2. Membuat Perulangan dengan *While* yang terdapat pada Menu untuk Menjalankan Program.
+2. Membuat Perulangan dengan *`While`* yang terdapat pada Menu untuk Menjalankan Program.
 
 ```python
 while True:
@@ -182,7 +182,7 @@ a=input("[(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar] :")
 print()
 ```
 
-3. Menambahkan Data Yang Dibutuhkan Seperti Data ***Nim*, *Nama*, *Nilai Tugas*, *Uts*, dan *Uas*.** Data yang Di Input akan Masuk ke Dalam Dictonary **Data** dengan **Nim** sebagai keys sedangkan nama, tugas, uts dan uas sebagai **Values**
+3. Menambahkan Data Yang Dibutuhkan Seperti Data ***`Nim`*, *`Nama`*, *`Nilai Tugas`*, *`Uts`*, dan *`Uas`*.**  Data yang Di Input akan Masuk ke Dalam Dictonary **`Data`** dengan **`Nim`** sebagai keys sedangkan nama, tugas, uts dan uas sebagai **`Values`**.
 
 ```python
 if a=="t" or a=="T":
@@ -197,7 +197,7 @@ if a=="t" or a=="T":
     data[nim]=nama, tugas, uts, uas, akhir
 ```
 
-4. Menampilkan atau Melihat *Data*. Jika Sebelumnya belum Menginputnya Maka Tampilan *"Tidak Ada"*. Apabila sudah Menginput *Data*. Maka Data Akan Ditampilkan.
+4. Menampilkan atau Melihat *`Data`*. Jika Sebelumnya belum Menginputnya Maka Tampilan *`"Tidak Ada"`*. Apabila sudah Menginput Data. Maka Data Akan Ditampilkan.
 
 ```python
 elif a=="l" or a=="L":
@@ -222,7 +222,7 @@ elif a=="l" or a=="L":
         print()
 ```
 
-5. Apabila Ingi Mengubah *Data*, maka Anda akan diminta untuk menginputkan kembali *Nim* yang Telah Di Input. Setelah Itu Data apat Diubah.
+5. Apabila Ingi Mengubah *`Data`*, maka Anda akan diminta untuk menginputkan kembali *`Nim`* yang Telah Di Input. Setelah Itu Data apat Diubah.
 
 ```python
  elif a=="u" or a=="U":
@@ -237,7 +237,7 @@ elif a=="l" or a=="L":
         akhir=(int(tugas)*30/100)+(int(uts)*35/100)+(int(uas)*35/100)
 ```
 
-6. Jika Ingin Menghapus *Data*, anda akan Diminta Menginputkan *Nim* Nya kemabli. Lalu *Data* yang telah Di Input sejak Awal akan terhapus beserta ***`Valuesnya`*** (Nama, Nilai Tugas, Nilai Uts, dan NIlai Uas).
+6. Jika Ingin Menghapus *Data*, anda akan Diminta Menginputkan *Nim* Nya kemabli. Lalu *Data* yang telah Di Input sejak Awal akan terhapus beserta ***`Valuesnya`*** `(Nama, Nilai Tugas, Nilai Uts, dan NIlai Uas)`.
 
 ```python
 elif a=="h" or a=="H":
@@ -249,7 +249,7 @@ elif a=="h" or a=="H":
         del data[nim]
 ```
 
-7. Jika Ingin Mencari *Data*. Anda Akan Diminta Unutk Menginputkan ***`Nim`*** Kemudian *Data* yang Anda cari akan muncul.
+7. Jika Ingin Mencari *Data*. Anda Akan Diminta Unutk Menginputkan ***`Nim`*** Kemudian *`Data`* yang Anda cari akan muncul.
 
 ```python
 elif a=="c" or a=="C":
